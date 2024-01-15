@@ -14,11 +14,13 @@ When designing your actions you may need to debug the action flow or to register
 
 ## How to Log Information in your Action Flow
 
-1. Open your action flow. 
+1. Add the LogMessage System Action in the Manage Dependencies window.
 
-2. Drag the  LogMessage action from the System Objects tree to the exact place of the action flow that you want to audit. You might need to add the LogMessage System Action in the Manage Dependencies window, if it hasn’t been added before. 
+2. Open your action flow. 
 
-3. Fill-in the Message and ModuleName properties with the information you want to log. 
+3. Drag the  LogMessage action from the System Objects tree to the exact place of the action flow that you want to audit. 
+
+4. Fill-in the Message and ModuleName properties with the information you want to log. 
 
 If you are developing a Reactive Web or a Mobile app, you have a LogMessage Client Action to use in your client side action flows, and a LogMessage Server Action to use in your server side action flows.
 
